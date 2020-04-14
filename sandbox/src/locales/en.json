@@ -1,0 +1,13 @@
+{
+  "Application.Title": "Credit Management",
+  "Menu.Sidebar.Home": "Home", 
+  "Menu.Sidebar.Group.Tables": "Tables",
+  "Menu.Sidebar.Group.Applications": "Applications",
+  "Menu.Sidebar.Item.RiskEvaluation": "Risk evaluation",
+  "RiskEvaluation.ListItem.Title.Scorecard": "Scorecard",
+  "RiskEvaluation.ListItem.Title.RecRiskClass": "Recommended Riskclass",
+  "RiskEvaluation.ListItem.Title.RecCreditLock": "Recommended Creditlock",
+  "RiskEvaluation.Badge.LowRisk": "Low Risk",
+  "RiskEvaluation.Badge.AutomaticScorecardFinding": "Automatic Scorecard finding deactivated",
+  "RiskEvaluation.Badge.Creditlock": "Creditlock not set"
+}
