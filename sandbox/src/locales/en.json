@@ -9,5 +9,6 @@
   "RiskEvaluation.ListItem.Title.RecCreditLock": "Recommended Creditlock",
   "RiskEvaluation.Badge.LowRisk": "Low Risk",
   "RiskEvaluation.Badge.AutomaticScorecardFinding": "Automatic Scorecard finding deactivated",
-  "RiskEvaluation.Badge.Creditlock": "Creditlock not set"
+  "RiskEvaluation.Badge.Creditlock": "Creditlock not set",
+  "Menu.Sidebar.Item.CreditReports": "Credit reports"
 }

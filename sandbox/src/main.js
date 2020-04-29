@@ -17,12 +17,14 @@ import i18n from './i18n'
 
 //Applications
 import RiskEvaluation from '@/components/Applications/RiskEvaluation'
-
+import CreditReports from '@/components/Applications/CreditReports'
 
 //Charts
 import Donut from 'vue-css-donut-chart'
 import 'vue-css-donut-chart/dist/vcdonut.css'
 import VueApexCharts from 'vue-apexcharts'
+import VueGoogleCharts from 'vue-google-charts'
+
 
 //Authentication 
 import { domain, clientId } from "../auth_config.json"
@@ -50,13 +52,15 @@ Vue.use(Auth0Plugin, {
   }
 })
 Vue.use(VueAxios, axios)
+Vue.use(VueGoogleCharts)
 
 const routes = [
   {path: '/home', component: home},
   {path: '/vbak', component: vbak}, 
   {path: '/vbap', component: vbap}, 
   {path: '/vbep', component: vbep},
-  {path: '/RiskEvaluation', component: RiskEvaluation}
+  {path: '/RiskEvaluation', component: RiskEvaluation}, 
+  {path: '/CreditReports', component: CreditReports}
 ]
 
 const router = new VueRouter({

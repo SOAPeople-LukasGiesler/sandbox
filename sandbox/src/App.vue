@@ -1,10 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      clipped
-    >
+    <v-navigation-drawer v-model="drawer" app clipped>
       <v-list dense>
         <v-list-item link>
           <v-list-item-action>
@@ -38,6 +34,9 @@
           </template>
           <v-list-item>
             <v-list-item-content><router-link to="/RiskEvaluation" class="router_link_sidebar">{{ $t('Menu.Sidebar.Item.RiskEvaluation')}}</router-link></v-list-item-content>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-content><router-link to="/CreditReports" class="router_link_sidebar">{{ $t('Menu.Sidebar.Item.CreditReports')}}</router-link></v-list-item-content>
           </v-list-item>
         </v-list-group>
       </v-list>
@@ -94,7 +93,7 @@ export default {
   }),
 
   created () {
-    this.$vuetify.theme.dark = true
+    this.$vuetify.theme.dark = false
   }, 
 
   methods: {
@@ -113,6 +112,6 @@ export default {
 <style scoped>
  .router_link_sidebar {
    text-decoration: none;
-   color: white;
+   color: black;
  }
 </style>
